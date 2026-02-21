@@ -371,14 +371,16 @@ const Index = () => {
             </div>
           </div>
           <div className="fade-section flex justify-center mb-10">
-            <a
-              href="https://www.linkedin.com/in/mahesh-kottur-10a0741a/"
-              className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground hover:bg-secondary hover:text-secondary-foreground transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin size={22} />
-            </a>
-          </div>
+  <a
+    href="https://www.linkedin.com/in/mahesh-kottur-10a0741a/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground hover:bg-secondary hover:text-secondary-foreground transition-colors"
+    aria-label="LinkedIn"
+  >
+    <Linkedin size={22} />
+  </a>
+</div>
           <div className="border-t border-primary-foreground/10 pt-8 text-center">
             <p className="text-primary-foreground/50 text-sm">
               © {new Date().getFullYear()} Mahesh Kottur. All rights reserved.
