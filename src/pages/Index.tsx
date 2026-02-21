@@ -171,11 +171,12 @@ const Index = () => {
                 <Mail size={18} /> Contact Me
               </a>
               <a
-                href="#"
-                className="inline-flex items-center justify-center gap-2 border-2 border-primary-foreground/30 text-primary-foreground px-8 py-3.5 rounded-lg font-semibold hover:bg-primary-foreground/10 transition-all"
-              >
-                <Download size={18} /> Download Resume
-              </a>
+  href="/docs/MaheshKottur_Resume.pdf"
+  download="Mahesh_Kottur_Resume.pdf"
+  className="inline-flex items-center justify-center gap-2 border-2 border-primary-foreground/30 text-primary-foreground px-8 py-3.5 rounded-lg font-semibold hover:bg-primary-foreground/10 transition-all"
+>
+  <Download size={18} /> Download Resume
+</a>
             </div>
           </div>
         </div>
@@ -371,7 +372,7 @@ const Index = () => {
           </div>
           <div className="fade-section flex justify-center mb-10">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/mahesh-kottur-10a0741a/"
               className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground hover:bg-secondary hover:text-secondary-foreground transition-colors"
               aria-label="LinkedIn"
             >
