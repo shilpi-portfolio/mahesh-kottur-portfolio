@@ -151,7 +151,7 @@ const Index = () => {
         <div className="relative z-10 max-w-6xl mx-auto px-6 py-32 flex flex-col md:flex-row items-center gap-12 w-full">
           <div className="flex-shrink-0 animate-fade-up">
             <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-secondary shadow-2xl">
-              <img src="/images/MK.png" alt="Mahesh Kottur" className="w-full h-full object-cover" />            </div>
+              <img src="/images/MK.jpeg" alt="Mahesh Kottur" className="w-full h-full object-cover" />            </div>
           </div>
           <div className="text-center md:text-left animate-fade-up animate-fade-up-delay-1">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-4 leading-tight">
